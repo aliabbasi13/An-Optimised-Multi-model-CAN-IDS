@@ -17,7 +17,7 @@ The models are trained and tested on real automotive datasets to detect followin
 
 ## Features
 - Data preprocessing and feature extraction (timestamp, CAN ID, DLC, data bytes).  
-- Class balancing to handle benign and attack traffic.  
+- Class balancing to handle benign and attack traffic. ,  
 - Optimization techniques: hyperparameter tuning, early stopping, weight balancing, quantization.  
 - Performance evaluation using Accuracy, Precision, Recall, F1-score, AUROC, TPR, TNR, FPR and Latency.  
 - Comparative analysis of ML vs. DL models under standardized conditions.
@@ -27,6 +27,12 @@ The models are trained and tested on real automotive datasets to detect followin
 - **OTIDS Dataset** (HCRL CAN Intrusion Dataset) Link: https://ocslab.hksecurity.net/Dataset/CAN-intrusion-dataset  
 - **HCRL In-Vehicle Network Intrusion Detection Challenge Dataset**  
 
+## Experimental Setup
+- Core programming language: Python v3.13.5
+- Libraries: TensorFlow (v2.15), KerasTuner, Scikit-learn, GridsearchCV, Matplotlib and Seaborn, NumPy, Pandas
+- Compiler and Code editor: Visual Code v1.100.1 and Jupyter Notebook
+- Anaconda: For conda environment setup
+ 
 ## Results
 - **DNN** achieved the best impresssive accuracy with highest computational efficiency.  
 - **CNN** provided strong detection with high precision.  
