@@ -24,7 +24,7 @@ The models are trained and tested on real automotive datasets to detect followin
 - Benchmarking with Existing Literature. 
 
 ## Datasets
-- **OTIDS Dataset** (HCRL CAN Intrusion Dataset)  
+- **OTIDS Dataset** (HCRL CAN Intrusion Dataset) Link: https://ocslab.hksecurity.net/Dataset/CAN-intrusion-dataset  
 - **HCRL In-Vehicle Network Intrusion Detection Challenge Dataset**  
 
 ## Results
